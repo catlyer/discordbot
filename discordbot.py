@@ -202,21 +202,6 @@ async def tts(ctx, *, text):
     #engine.runAndWait()
     await ctx.send("TTS is currently disabled")
 
-# China proverb
-@bot.command()
-async def china(ctx):
-    """
-    this is the greatest shit i have ever done
-    """
-    def print_random_line(filename):
-        with open(filename, 'r') as f:
-            global random_line
-            lines = f.readlines()
-            random_line = random.choice(lines)
-            print(random_line.strip())
-    print_random_line("/content/primrose/CHINAAAAA.txt")
-    await ctx.send(random_line)
-
 # Command to kill the bot
 @bot.command()
 async def kill(ctx):
