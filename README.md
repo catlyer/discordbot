@@ -1,14 +1,13 @@
 your own discord bot which talks to you
 
-uses openrouter for apis
+Has three versions, old version can play music, openrouter version is the ai chatbot you want BUT ratelimited to 50 a day or 10 a hour. Ollama version is the same as openrouter, but runs locally and thus has no rate limit
 
-requires some knowledge on how to set up a discord bot and how to get an Openrouter API key
+Prerequisites: Some basic knowledge on how to make a discord bot token (for all versions), make an openrouter api key (for the openrouter version) and how to set up Ollama (for the ollama version)
 
-1. run `git clone https://github.com/catlyer/discordbot.git` to clone this repo for yourself
-2. run `installdeps.py` once to install dependencies
-3. fill in `config.py` with the API keys and bot tokens
-4. then once all that is done, run `main.py` and your bot should be up and running!
+How to install:
+1. `git clone https://github.com/catlyer/discordbot.git` to clone this repo for yourself
+2. RUN `installdeps.py` to install dependencies
+3. EDIT `config.py` with the API keys, bot tokens, system prompt etc
+4. Run `main.py` to start the bot
 
-
-theres also an older version of the bot with the capaility to play music and thats inside the `old ver` folder
-instructions to run are the same
+instructions to run apply for all three versions
